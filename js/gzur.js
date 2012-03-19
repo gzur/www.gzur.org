@@ -12,7 +12,6 @@ $(document).ready(
 
 
     });
-
 function fadeInNextSpan(current, waitTime)
 {
     if(keepBlinking)
