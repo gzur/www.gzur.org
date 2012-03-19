@@ -12,7 +12,7 @@ $(document).ready(
 
 
     });
-var jim = "jes":
+
 function fadeInNextSpan(current, waitTime)
 {
     if(keepBlinking)
