@@ -1,49 +1,83 @@
-
 body {
     font-family: 'Graduate', sans-serif;
     /*background-image:url("../images/bg.jpg");*/
-    background-image:url("../images/telesiege2.jpg");
+    background-image: url("../images/telesiege2.jpg");
     background-size: cover;
     font-size: 24px;
     letter-spacing: -2px;
 }
 
-a{color:black;}
-a:hover{color:#F9263E;}
+a {
+    color: black;
+}
 
-/*::selection{ color: #000;  background: #F9263E; }*/
-.special:first-letter{
-    font-size:1.2em;
-}
-h1{
-    font-size: 1.7em;
-}
-h1, .special{
+a:hover {
     color: #F9263E;
 }
+
+/*::selection{ color: #000;  background: #F9263E; }*/
+
+.special:first-letter {
+    font-size: 1.2em;
+}
+
+h1 {
+    font-size: 1.7em;
+}
+
+h1, .special {
+    color: #F9263E;
+}
+
 ul#things_I_do {
     list-style: none outside none;
-    margin-left:20px;
-    padding:0px;
+    margin-left: 20px;
+    padding: 0px;
 }
-li{
+
+li {
     margin-bottom: 10px;
 }
-li.alone{ margin-top:30px;margin-bottom:30px;}
 
+li.alone {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
 
+li.alone span:hover {
+    opacity: 1;
+    cursor: wait;
+}
 
-#validators{position:absolute;bottom:10px;right:10px;}
-#validators a{text-decoration:none;}
-#validators img{
+li.alone span {
+    opacity: 0.1;
+}
+
+#validators {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+
+#validators a {
+    text-decoration: none;
+}
+
+#validators img {
     opacity: 0.1;
     border: 0;
     width: 88px;
     height: 31px;
 }
-#validators img:hover{opacity: 1.0}
-/* Smartphones (portrait) ----------- */
-@media screen and (max-width : 530px) {
-    #validators{position:relative;}
 
+#validators img:hover {
+    opacity: 1.0
+}
+
+/* Smartphones (portrait) ----------- */
+
+@media screen and (max-width: 530px) {
+    #validators {
+        position: relative;
+    }
 }
